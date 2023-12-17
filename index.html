@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1><a href="/">Registro</a></h1>
+    <div class="main-form">
+        <form id="registro" method="post">
+            <section class="info_personal">
+                <h3 class="accordion">Informacion Personal</h3>
+                <div class="persona-div panel">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Introduzca su nombre">
+                    <label for="Lname">Apellido</label>
+                    <input type="text" name="Lname" id="Lname" placeholder="Introduzca su apellido">
+                    <label for="age">Edad</label>
+                    <input type="edad" name="age" id="age" placeholder="Introduzca su edad">
+                    <label for="id">Cedula o pasaporte</label>
+                    <input type="text" name="id" id="id" placeholder="Introduzca su cedula o pasaporte">
+                    <label for="email">Email</label>
+                    <input type="" name="email" id="email" placeholder="Introduzca su email">
+                    <label for="email">Direccion</label>
+                    <input type="text" name="address" id="address" placeholder="Introduzca su direccion">
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="text" name="birth" id="birth" placeholder="dd/mm/yyyy">
+                </div>
+            </section>
+            <section class="familiares">
+                <h3 class="accordion">Familiares</h3>
+                <div class="familiares-div panel">
+                    <label>Cantidad de Familiares a registrar</label>
+                    <input type="text" id="numFamiliares">
+                </div>
+            </section>
+            <section class="condiciones">
+                <h3 class="accordion">Condiciones Pre-Existentes de Salud</h3>
+                <div class="salud-div panel">
+                    <label>Cantidad de Condiciones Pre-Existentes a registrar</label>
+                    <input type="text" id="numCondiciones">
+                </div>
+            </section>
+            <section class="internamientos">
+                <h3 class="accordion">Internamientos Realizados</h3>
+                <div class="internamietos-div panel">
+                    <label>Cantidad de Internamientos a registrar</label>
+                    <input type="text" id="numInternamientos">
+                </div>
+            </section>
+            <div id="btns">
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Mostrar registro" id="mostrar">
+                <input type="submit" value="editar" id="editar">
+            </div>
+           
+        </form>
+    </div>
+    <script src="registro.js"></script>
+</body>
+
+</html>
